@@ -17,10 +17,10 @@ terraform {
   }
 
   cloud {
-    organization = "TERRAFORM-ORG-NAME"
+    organization = "example-org-df2eaf"
 
     workspaces {
-      name = "TERRAFORM-WORKSPACE-NAME"
+      name = "azure_website_github_actions"
     }
   }
 

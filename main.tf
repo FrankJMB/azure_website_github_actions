@@ -1,12 +1,12 @@
 locals {
 
   # Azure Configuration
-  location = "eastus2"
+  location = "westeurope"
   rg_name  = format("%s-rg", random_pet.name.id)
   web_name = format("%s-website", random_pet.name.id)
 
   # GitHut Repository
-  repo_name = "REPOSITORY-NAME"
+  repo_name = "azure_website_github_actions"
 }
 
 resource "random_pet" "name" {
